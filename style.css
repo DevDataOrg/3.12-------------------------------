@@ -24,3 +24,48 @@ body {
 .card {
   max-width: 300px;
 }
+
+/* начало урока */
+.content {
+  padding: 2rem 1rem;
+}
+
+h2 {
+  margin: 0 0 1em;
+}
+
+ul {
+  margin: 0;
+  display: inline-block;
+  /* margin: 0 2em 1em 0; */
+  padding-left: 1em;
+}
+
+ul:not(:last-child){
+  margin: 0 2em 1em 0;
+}
+
+/* селектор выберет последний элемент списка */
+/* ul:last-child {
+  margin-right: 0;
+  margin-bottom: 0;
+} */
+
+
+/* отступы между секциями */
+.example:not(:last-child){
+  margin-bottom: 2em;
+}
+
+/* Применяется ко всем четырём сторонам */
+/* margin: 1em;
+margin: -3px; */
+
+/* по вертикали | по горизонтали */
+/* margin: 5% auto; */
+
+/* сверху | горизонтально | снизу */
+/* margin: 1em auto 2em; */
+
+/* сверху | справа | снизу | слева */
+/* margin: 2px 1em 0 auto; */
